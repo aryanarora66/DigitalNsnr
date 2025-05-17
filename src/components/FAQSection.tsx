@@ -36,7 +36,7 @@ export default function FAQSection() {
     <section className="py-20 bg-white relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
         {/* Left: FAQ */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 text-black">
           <h2 className="text-white text-sm font-semibold uppercase mb-2">FAQ</h2>
           <h3 className="text-3xl font-bold mb-2">Frequently Asked Questions</h3>
           <div className="h-1 w-20 bg-gray-300 mb-6" />

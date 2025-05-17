@@ -44,7 +44,7 @@ export default function BestAppDevelopmentSection() {
 
         {/* Right Content */}
         <div>
-          <h2 className="text-3xl font-bold mb-4">Our Best App Development</h2>
+          <h2 className="text-3xl font-bold text-black mb-4">Our Best App Development</h2>
           <p className="text-gray-700 mb-8">
             We offer custom mobile application development services tailored to your business needs. Our goal is to
             transform your ideas into powerful and scalable digital solutions. From brainstorming to launch, we handle
@@ -52,7 +52,7 @@ export default function BestAppDevelopmentSection() {
           </p>
 
           {/* Accordion Items */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-black">
             {topics.map((item, index) => (
               <div key={index}>
                 <div

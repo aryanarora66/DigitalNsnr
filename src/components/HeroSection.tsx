@@ -4,11 +4,12 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import CountUp from 'react-countup';
+import { FaXTwitter } from "react-icons/fa6";
+
 import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
-  FaTwitter,
   FaYoutube,
   FaTiktok,
   FaRocket,
@@ -162,13 +163,10 @@ export default function HeroSection() {
               <FaFacebookF className="text-blue-600 text-2xl hover:scale-110 transition-transform" />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="text-sky-500 text-2xl hover:scale-110 transition-transform" />
+              <FaXTwitter className="text-black text-2xl hover:scale-110 transition-transform" />
             </a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
               <FaYoutube className="text-red-600 text-2xl hover:scale-110 transition-transform" />
-            </a>
-            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
-              <FaTiktok className="text-black text-2xl hover:scale-110 transition-transform" />
             </a>
           </div>
         </div>
