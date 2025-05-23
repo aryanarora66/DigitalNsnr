@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'NSNR FUTURE' }],
   creator: 'NSNR FUTURE',
   openGraph: {
-    title: 'NSNR FUTURE | Digital Marketing Agency in Delhi NCR',
+    title: ' Digital Marketing Agency in Delhi NCR | NSNR FUTURE ',
     description:
       'Grow your online presence with NSNR FUTURE - your trusted digital partner for SEO, Paid Ads, and Social Media Marketing.',
     url: 'https://nsnrfuture.com', // Replace with your real domain
